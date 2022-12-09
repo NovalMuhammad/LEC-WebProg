@@ -41,7 +41,7 @@
             <h1>Front-End</h1>
             <p>Front-end development refers to the client-side (how a web page looks).</p>
             <p style="color: #FFE1E1;"><u>HTML</u>, <u>CSS</u>, <u>JavaScript</u></p>
-            <button style="background-color: #FFE1E1; color: #32303F;">Learn</button>
+            <a href="/front-end"><button style="background-color: #FFE1E1; color: #32303F;">Learn</button></a>
         </div>
     </div>
     <div class="back">
@@ -50,7 +50,7 @@
             <h1>Back-End</h1>
             <p>Back-end development refers to the server-side (how a web page works).</p>
             <p style="color: #47464C;"><u>SQL</u>, <u>PHP</u>, <u>Phyton</u>, <u>C++</u></p>
-            <button style="background-color: #5B9277; color: #E0FFDD;">Learn</button>
+            <a href="/back-end"><button style="background-color: #5B9277; color: #E0FFDD;">Learn</button></a>
         </div>
     </div>
 

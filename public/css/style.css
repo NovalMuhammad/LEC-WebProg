@@ -4,6 +4,9 @@
     font-family: 'Inter';
 }
 
+
+/* Home Page */
+
 .front {
     background-color: #32303F;
     color: white;
@@ -18,4 +21,36 @@
     text-align: center;
     display: flex;
     align-items: center;
+}
+
+
+/* Back-End */
+
+.course {
+    width: 1219px;
+    height: 606px;
+    margin: auto;
+    /* border: 1px black solid; */
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.card {
+    margin: auto;
+    width: 476px;
+    /* height: 283px; */
+    border-radius: 35px;
+    padding: 100px 0;
+    align-items: center;
+}
+
+.card h1 {
+    color: #E0FFDD;
+    font-weight: bold;
+}
+
+.card h3 {
+    color: white;
+    font-weight: 500;
 }
