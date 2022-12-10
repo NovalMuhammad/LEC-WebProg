@@ -24,3 +24,7 @@ Route::get('/front-end', function () {
 Route::get('/back-end', function () {
     return view('back-end_page');
 });
+
+Route::get('/php', function () {
+    return view('course.back-end.php_course');
+});

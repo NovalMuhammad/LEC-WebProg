@@ -34,6 +34,7 @@
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
+    text-decoration: none;
 }
 
 .card {
