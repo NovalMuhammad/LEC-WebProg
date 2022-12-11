@@ -25,6 +25,20 @@ Route::get('/back-end', function () {
     return view('back-end_page');
 });
 
+
+// Course
 Route::get('/php', function () {
     return view('course.back-end.php_course');
+});
+
+Route::get('/sql', function () {
+    return view('course.back-end.sql_course');
+});
+
+Route::get('/python', function () {
+    return view('course.back-end.python_course');
+});
+
+Route::get('/c++', function () {
+    return view('course.back-end.c++_course');
 });

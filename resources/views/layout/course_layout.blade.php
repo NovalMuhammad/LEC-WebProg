@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>@yield('title')</title>
+    <title>@yield('title-page')</title>
 </head>
 <script src="script/jquery-3.6.0.min.js"></script>
 <script src="script/script.js"></script>
@@ -12,7 +12,7 @@
     body {
         text-align: center;
         background-color: @yield('background-page');
-
+        font-family: 'Inter', sans-serif;
     }
     .suggest {
         width: 282px;
@@ -34,6 +34,7 @@
         color: @yield('subtitle-color');
     }
     img {
+        color: white;
         width: 22px;
         height: 22px;
     }
@@ -75,11 +76,11 @@
 
 </style>
 <body>
-    <h1 id="title">PHP</h1>
-    <h2 id="subtitle">A Web Server Programming Language</h2>
+    <h1 id="title">@yield('title')</h1>
+    <h2 id="subtitle">@yield('subtitle')</h2>
     <div class="suggest">
         <img class="child inline-block-child" src="storage/images/suggest_icon.png" alt="">
-        <h4 class="child inline-block-child">Any Suggestion?</h4>
+        <h4 class="child inline-block-child" style="color: @yield('suggest-color')">Any Suggestion?</h4>
     </div>
         <ul class="course">
             <li>
