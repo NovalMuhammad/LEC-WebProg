@@ -29,6 +29,15 @@ Route::get('/back-end', function () {
     return view('back-end_page');
 });
 
+// Auth
+Route::get('/register', function () {
+    return view('auth.register_page');
+});
+
+Route::get('/login', function () {
+    return view('auth.login_page');
+});
+
 
 // Course
 Route::get('/php', function () {
