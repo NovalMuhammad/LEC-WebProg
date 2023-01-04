@@ -9,6 +9,23 @@
 </head>
 <body>
     <style>
+        .left {
+        width: 50%;
+        background-color: #32303F;
+        color: white;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .right {
+        width: 50%;
+        background-color: #E0FFDD;
+        color: #145A39;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
         h1{
             font-size: 80px;
             margin-top: 30px;

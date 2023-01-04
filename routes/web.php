@@ -13,20 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function () {
     return view('welcome_page');
-});
-
-Route::get('/home', function () {
-    return view('home_page');
-});
-
-Route::get('/front-end', function () {
-    return view('front-end_page');
-});
-
-Route::get('/back-end', function () {
-    return view('back-end_page');
 });
 
 // Auth
@@ -39,19 +28,63 @@ Route::get('/login', function () {
 });
 
 
+
+Route::get('/home', function () {
+    return view('home_page');
+});
+
+
+// Admin
+
+Route::get('/front-end', function () {
+    return view('admin.front-end_page');
+});
+
+Route::get('/back-end', function () {
+    return view('admin.back-end_page');
+});
+
 // Course
 Route::get('/php', function () {
-    return view('course.back-end.php_course');
+    return view('admin.course.back-end.php_course');
 });
 
 Route::get('/sql', function () {
-    return view('course.back-end.sql_course');
+    return view('admin.course.back-end.sql_course');
 });
 
 Route::get('/python', function () {
-    return view('course.back-end.python_course');
+    return view('admin.course.back-end.python_course');
 });
 
 Route::get('/c++', function () {
-    return view('course.back-end.c++_course');
+    return view('admin.course.back-end.c++_course');
 });
+
+
+// // Member
+// Route::get('/front-end', function () {
+//     return view('member.front-end_page');
+// });
+
+// Route::get('/back-end', function () {
+//     return view('member.back-end_page');
+// });
+
+// // Course
+// Route::get('/php', function () {
+//     return view('member.course.back-end.php_course');
+// });
+
+// Route::get('/sql', function () {
+//     return view('member.course.back-end.sql_course');
+// });
+
+// Route::get('/python', function () {
+//     return view('member.course.back-end.python_course');
+// });
+
+// Route::get('/c++', function () {
+//     return view('member.course.back-end.c++_course');
+// });
+

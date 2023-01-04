@@ -70,7 +70,7 @@
     <p style="color: @yield('title-color'); font-weight: 600; font-size: 1.5em">@yield('sub-title')</p>
 
     <div class="textForm">
-        <form action="@yield('form-action')" method="POST">
+        <form action="@yield('form-action')">
             @csrf
             @yield('form')
             <br><button type="submit">@yield('title')</button>
