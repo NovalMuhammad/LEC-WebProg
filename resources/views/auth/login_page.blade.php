@@ -17,6 +17,8 @@
 
 @section('title-color', '#47464C')
 
+@section('form-action', '/home')
+
 @section('form')
     <br><label for="username">Username</label>
     <br><input type="text" name="username" placeholder="Username">

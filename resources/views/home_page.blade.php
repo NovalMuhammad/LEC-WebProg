@@ -27,4 +27,4 @@
 
 @section('right-button-title', 'Learn')
 
-@section('right-route', '/back-end')
+@section('right-route', '/back')

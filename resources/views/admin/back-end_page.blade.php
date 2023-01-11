@@ -63,3 +63,11 @@
 </a>
 @endsection
 
+@section('new-course-button')
+<div class="new-course">
+    <a href="">
+        <img src="storage/images/add_icon.png" alt="">
+        <p>Add New Course</p>
+    </a>
+</div>
+@endsection

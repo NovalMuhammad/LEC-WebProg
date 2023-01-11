@@ -62,14 +62,14 @@ Route::get('/c++', function () {
 });
 
 
-// // Member
-// Route::get('/front-end', function () {
-//     return view('member.front-end_page');
-// });
+// Member
+Route::get('/front', function () {
+    return view('member.front-end_page');
+});
 
-// Route::get('/back-end', function () {
-//     return view('member.back-end_page');
-// });
+Route::get('/back', function () {
+    return view('member.back-end_page');
+});
 
 // // Course
 // Route::get('/php', function () {
