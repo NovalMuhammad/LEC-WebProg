@@ -14,6 +14,18 @@
         background-color: @yield('background-page');
         font-family: 'Inter', sans-serif;
     }
+    .edit {
+        position: absolute;
+        width: 209.42px;
+        height: 62px;
+        left: 84px;
+        top: 60px;
+        border-radius: 40px;
+        font-size: 20px;
+        font-weight: 700;
+        display: inline-table;
+        background-color: @yield('background-suggest');
+    }
     .suggest {
         width: 282px;
         height: 60px;
@@ -78,6 +90,10 @@
 <body>
     <h1 id="title">@yield('title')</h1>
     <h2 id="subtitle">@yield('subtitle')</h2>
+    <div class="edit">
+        <img class="child inline-block-child" src="{{URL ('image/pen.jpg')}}" alt="">
+        <h4 class="child inline-block-child" style="color: @yield('suggest-color')">Edit Course</h4>
+    </div>
     <div class="suggest">
         <img class="child inline-block-child" src="storage/images/suggest_icon.png" alt="">
         <h4 class="child inline-block-child" style="color: @yield('suggest-color')">Any Suggestion?</h4>
